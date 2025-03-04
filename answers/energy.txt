@@ -1,0 +1,2 @@
+"How many Big Macs of energy does it take to power 100 Google Searches?", "math.ceil((257.95 * 100) / bigMacCalories)", "https://fullfact.org/environment/google-search/"
+"How many costco hotdogs of energy can be stored in the base model Iphone 16?", "math.ceil(((3561/1000)*3.8*860.42065)/costcoHotDogCalories)", "https://www.tomsguide.com/phones/iphones/iphone-16-battery-capacity-is-confirmed-heres-whats-changed"

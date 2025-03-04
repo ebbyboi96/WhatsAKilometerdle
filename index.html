@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="main.css">
+<link href="https://fonts.googleapis.com/css2?family=Gotham&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>What's A Kilometerdle?</title>
+    <h1>What's A Kilometerdle?</h1>
+</head>
+<body>
+    <form method="POST" action="/">
+        <label for="my_data">Enter Data:</label>
+        <input type="text" id="my_data" name="my_data">
+        <button type="submit">Send (Form)</button>
+    </form>
+
+    <hr>
+    {% if received_data %}
+        <p>Received Data: {{ received_data }}</p>
+    {% endif %}
+    <h2>Send Data with AJAX (JSON)</h2>
+    <input type="text" id="ajax_data" placeholder="Enter data for AJAX">
+    <button onclick="sendData()">Send (AJAX)</button>
+
+    <script>
+        function sendData() {
+            const dataToSend = document.getElementById('ajax_data').value;
+
+            fetch('/', {  // Send to the same route
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'  // Specify JSON content
+                },
+                body: JSON.stringify({ my_data: dataToSend }) // Convert to JSON
+            })
+            .then(response => response.json()) // Expect a JSON response
+            .then(data => {
+                console.log('Success:', data);
+                // Update the page with the response (optional)
+                alert("Data sent successfully, Check your server's logs for the data sent");
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,2 @@
+"How many Costco Hot dog meals can Elon Musk buy?", "math.ceil(397000000000 / costcoHotDogPrice)", "https://www.forbes.com/sites/forbeswealthteam/article/the-top-ten-richest-people-in-the-world/"
+"How many base model 2025 Ford F150s worth of debt does Australia have?", "math.ceil(430760240353 / fordF1502025Price)", "https://worlddebtclocks.com/australia"

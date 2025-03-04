@@ -1,0 +1,2 @@
+"How many football fields can fit in the state of Texas?", "math.ceil((27878400 * 261232)) / (footballFieldWidthFeet * footballFieldLengthFeet)", "https://www.census.gov/geographies/reference-files/2010/geo/state-area.html"
+"On average, how many big macs tall is the Grand Canyon?", "5280/bigMacHeightFeet", "https://www.nps.gov/grca/learn/management/statistics.htm, https://www.gioinauan.com/news/6344/how-tall-is-a-big-mac"

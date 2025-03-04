@@ -1,0 +1,2 @@
+"How many The Godfathers long was Obama's presidency", "math.ceil((6 * 525600 + 2 * 527040) / theGodFatherMinutes)", "https://www.mcdonalds.com/us/en-us/product/big-mac.html"
+"How many The Godfathers worth of work does the average American have to do to purchase a base model 2025 Ford F150 in cash?", "math.ceil(((13322400) * theGodFatherMinutes) / fordF1502025Price)", "https://data.bls.gov/cew/apps/table_maker/v4/table_maker.htm#type=0&year=2023&qtr=2&own=0&ind=10&supp=0"
